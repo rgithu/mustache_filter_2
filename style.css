@@ -1,0 +1,19 @@
+h1 {
+    font-size: 32px !important;
+}
+
+.btn-warning:hover {
+ background-color: rgb(217, 11, 220);
+}
+
+canvas {
+    animation-name: canvas2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    border: 5px dotted rgb(5, 5, 238);
+}
+
+@keyframes canvas2 {
+    from {box-shadow: 2px 2px 40px rgb(29, 225, 7);}
+    to {box-shadow: 2px 2px 40px rgb(220, 3, 10);}
+}
